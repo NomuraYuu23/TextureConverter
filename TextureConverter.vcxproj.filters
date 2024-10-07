@@ -13,10 +13,24 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Code">
+      <UniqueIdentifier>{874fc563-ba69-4d14-a811-bfdca1beec49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Code\TextureConverter">
+      <UniqueIdentifier>{ae029f96-cc01-4d55-8c79-f2bed4be1406}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>ソース ファイル</Filter>
+    <ClCompile Include="Code\TextureConverter.cpp">
+      <Filter>Code\TextureConverter</Filter>
     </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Code</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Code\TextureConverter.h">
+      <Filter>Code\TextureConverter</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
