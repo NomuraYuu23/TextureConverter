@@ -1,5 +1,5 @@
 #include "TextureConverter.h"
-#include <wrl.h>
+#include <Windows.h>
 
 TextureConverter::TextureConverter()
 {

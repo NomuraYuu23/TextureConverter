@@ -2,7 +2,6 @@
 #include <cstdlib>
 #include <cassert>
 #include <Windows.h>
-
 #include "Code/TextureConverter.h"
 
 // コマンドライン引数
